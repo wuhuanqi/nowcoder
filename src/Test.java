@@ -9,8 +9,10 @@
  * 作者姓名           修改时间           版本号              描述
  */
 
+import java.util.List;
+
 /**
- * 〈一句话功能简述〉<br> 
+ * 〈测试代码〉<br>
  * 〈〉
  *
  * @author user
@@ -25,10 +27,12 @@ public class Test {
         Sum_Solution sum_solution = new Sum_Solution();
         System.out.println(sum_solution.add(5,7));
         permute perm = new permute();
-        int[] nums = {1,2,3};
-        perm.permute(nums);
-        N_Queen queen = new N_Queen();
-        System.out.println(queen.queen(8));
+//        int[] nums = {1,2,3};
+//        perm.permute(nums);
+//        N_Queen queen = new N_Queen();
+//        System.out.println(queen.queen(8));
+        letterCasePermutation l = new letterCasePermutation();
+        List<String> res = l.letterCasePermutation("a1b2");
     }
 
 
